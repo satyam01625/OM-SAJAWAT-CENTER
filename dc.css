@@ -1,0 +1,132 @@
+ body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: #e91e63;
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-5px);
+    }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product-content {
+      padding: 15px;
+    }
+    .product-content h4 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+    .product-content p {
+      margin: 0 0 10px;
+      color: #777;
+      font-size: 14px;
+    }
+    .product-content button {
+      width: 100%;
+      padding: 10px;
+      background: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background: #222;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    .bottom-bar {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background: #fff;
+      display: flex;
+      box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+    }
+    .bottom-bar button {
+      flex: 1;
+      padding: 15px;
+      border: none;
+      background: #e91e63;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  #cars{
+        background: #87cdf0;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      color: black;
+      justify-content: center; 
+      font-size: 36px;
+      margin-bottom: 10px;
+      font-size: 25px;
+      margin-top: 15px;
+
+    }
+  #heading {
+  text-align: center;
+  padding: 30px 15px;
+  background-color: #fff0f5;
+  display: block;
+  font-size: 20px;
+  color: #444;
+  margin-top: 10px;
+}
+
+#heading h1 {
+  font-size: 36px;
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+#heading h1 span {
+  display: block;
+  font-size: 20px;
+  color: #444;
+  margin-top: 10px;
+}
+
+#heading p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 15px;
+}
+
+    
